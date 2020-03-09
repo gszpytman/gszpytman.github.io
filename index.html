@@ -9,7 +9,11 @@
             h1{
                 color: blueviolet;
             }
-            nav{
+            .nav{
+                height: 50px;
+                background: blueviolet;
+            }
+            .nav div{
                 display: inline-block;
                 position: absolute;
                 left: 0;
@@ -17,29 +21,33 @@
                 font-size: 20px;
                 color: antiquewhite;
             }
-            nav ul{
+            .nav ul{
                 position: absolute;
                 right: 5px;
             }
-            nav ul li{
+            .nav ul li{
                 display:inline-block
             }
-            nav ul li a{
+            .nav ul li a{
                 color: white;
                 padding: 5px;
             }
         </style>
     </head>
     <body>
-        <h1>Web</h1>
-        <nav>
+        <div class="nav">
+            <div>Company</div>
             <ul>
                 <li><a href="/">Home</a> </li>
                 <li><a href="html\About.html">About</a> </li>
                 <li><a href="html\Services.html">Services</a> </li>
                 <li><a href="html\Contact.html">Contact</a> </li>
             </ul>
-        </nav>
+        </div>
+
+        
+            
+        
         
     </body>
 </html>
